@@ -1,0 +1,241 @@
+body{
+  background-color: black;
+}
+#Block{
+  background-color: red;
+  color: purple;
+  width: 1200px;
+  height: 60px;
+}
+
+#bio {
+  float: left;
+  height: 50px;
+  width: 50px;
+  padding-top: 5px;
+}
+
+#bio2 {
+  float: right;
+  height: 50px;
+  width: 50px;
+  padding-top: 5px;
+}
+
+#title{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#par {
+  color: white;
+  height: 45px;
+  width: 1200px;
+  text-align: center;
+}
+
+#text{
+  padding: 0px 200px 0px 200px;
+}
+
+#WorldMap{
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 50px;
+  height: 600px;
+  width: 600px;
+}
+#map {
+  position: absolute;
+  smargin: 50px 150px 50px 150px;
+  height: 500px;
+}
+
+#NA {
+  color: black;
+  z-index: 1;
+  position: absolute;
+  left: 180px;
+  top: 110px;
+}
+
+
+#SA{
+  color: black;
+  z-index: 1;
+  position: absolute;
+  left: 270px;
+  top: 250px;
+}
+
+#Africa{
+  color: red;
+  z-index: 1;
+  position: absolute;
+  left: 490px;
+  top: 200px;
+}
+
+#out1{
+  display: none;
+  font-size: 10px;
+  color: green;
+  z-index: 100;
+}
+
+#Africa:hover{
+  color: green;
+}
+
+#Eu {
+  color: black;
+  z-index: 1;
+  position: absolute;
+  left: 530px;
+  top:75px;
+}
+
+#Asia{
+  color: red;
+  z-index: 1;
+  position: absolute;
+  left: 710px;
+  top: 140px;
+}
+
+#Asia:hover{
+  color:green;
+}
+
+#out2{
+  display: none;
+  font-size: 10px;
+  color: green;
+  z-index: 2;
+}
+
+#Aust{
+  color: black;
+  z-index: 1;
+  position: absolute;
+  left: 790px;
+  top:300px;
+}
+
+#Ant{
+  color: black;
+  z-index: 1;
+  position: absolute;
+  left: 500px;
+  top:440px;
+}
+
+#siteLinks{
+  float: left;
+  z-index: 1;
+  color: white;
+  padding: 40px 10px 10px 10px;
+  border-spacing: 10px;
+  border-collapse: separate;
+  width: 130px;
+}
+
+
+#Inews{
+  border: 4px dotted;
+  border-color: white;
+  padding: 20px 5px 20px 5px;
+}
+
+#Info1{
+  display: none;
+  font-size: 10px;
+  color: green;
+}
+
+#div1:hover #Info1{
+    display:block;
+}
+
+#news{
+  border: 4px dotted;
+  border-color: white;
+  padding: 20px 5px 20px 5px;
+}
+
+#Info2{
+  display: none;
+  font-size: 10px;
+  color: green;
+}
+
+#div2:hover #Info2{
+  display:block;
+}
+
+#Tips{
+  border: 4px dotted;
+  border-color: white;
+  padding: 20px 5px 20px 5px;
+}
+
+#Info3{
+  display: none;
+  font-size: 10px;
+  color: green;
+}
+
+#div3:hover #Info3{
+  display:block;
+}
+
+#Game{
+  border: 4px dotted;
+  border-color: white;
+  padding: 20px 5px 20px 5px;
+}
+
+#Info4{
+  display: none;
+  font-size: 10px;
+  color: green;
+}
+
+#div4:hover #Info4{
+  display:block;
+}
+
+
+#Quiz{
+  border: 4px dotted;
+  border-color: white;
+  padding: 20px 5px 20px 5px;
+}
+
+#Info5{
+  display: none;
+  font-size: 10px;
+  color: green;
+}
+
+#div5:hover #Info5{
+  display:block;
+}
+
+#sign{
+  border: 4px dotted;
+  border-color: white;
+  padding: 20px 5px 20px 5px;
+}
+
+#Info6{
+  display: none;
+  font-size: 10px;
+  color: green;
+}
+
+#div6:hover #Info6{
+  display:block;
+}
